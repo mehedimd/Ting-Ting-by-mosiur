@@ -1,0 +1,177 @@
+/* navbar section */
+
+
+.navbar{
+  background-color:#000000bf;
+}
+.navbar .nav-item {
+    padding-left: 2rem;
+}
+
+
+/* -------carousel------ */
+.carousel-item{
+   width: 100%;
+   height: 500px;
+    
+}
+
+.carousel-img-1{
+    
+    background: url('img/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.carousel-img-2{
+    
+    background: url('img/image1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-img-3{
+    
+    background: url('img/image6.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* -------home section- */
+#home-section .fas{
+    font-size: 40px;
+}
+
+/* get-started section */
+
+#get-started-section{
+    background: url('img/image1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 300px;
+
+}
+#get-started-section .dark-overlay{
+    background-color:#05050587;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ------video section-- */
+#video-section{
+    background: url('img/image5.jpeg');
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+#video-section .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#161616c4;
+}
+#video-section .fas{
+    font-size: 45px;
+    color: crimson;
+}
+
+/* -----image galary---- */
+#galary-img .card img{
+    width: 100%;
+    height: 250px;
+    
+}
+#galary-img .card {
+    margin-bottom: 16px;
+}
+#galary-img .card img:hover{
+    transform: scale(1.1);
+}
+
+/* ---------about section------ */
+
+#about-header-section{
+    background: url('img/image2.jpeg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+}
+/* what-we-do */
+
+#what-we-do img{
+    width: 350px;
+    height: 350px;
+}
+
+/* -------card-section----- */
+#card-section .card .card-body .far,.fab{
+    font-size: 50px;
+    
+}
+
+/* ---------------------blog-section------------------------- */
+#blog-header-section{
+    background: url('img/image6.jpeg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+/* ---------------service  */
+
+#service-header-section{
+    background: url('img/2.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    color: white;
+}
+/* ----------contact-------- */
+#contact-header-section{
+    background: url('img/1.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    color: white;
+}
+/* ---------footer------------------ */
+#footer{
+    background-color:#dfdfdf;
+}
+/* ------carousel section----- */
+
+
+@media(max-width:767px){
+    .navbar .nav-item {
+        padding-left: 0rem;
+    } 
+}
+@media(max-width:479px){
+    #get-started-section {
+        height: 400px;
+        padding-bottom: 50px;
+        
+    }
+    .carousel-item h2{
+        font-size: 35px;
+    }
+}
+/* pc section */
+@media(max-width:767px){
+    #pc-section .padding_bottom{
+        margin-bottom: 20px;
+    }
+}
